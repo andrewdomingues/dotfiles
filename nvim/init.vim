@@ -19,7 +19,7 @@ syntax on
 colorscheme sonokai 
 set nu!
 set rnu!
-#set wrap
+set wrap
 set tabstop=2
 set expandtab
 set shiftwidth=2
