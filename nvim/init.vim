@@ -101,5 +101,3 @@ let g:user_emmet_settings = {
 \    },
 \  },
 \}
-
-
