@@ -1,6 +1,6 @@
 " Plugins "
 call plug#begin()
-  Plug 'arcticicestudio/nord-vim'
+  Plug 'arcticicestudio/nord-vim', { 'as': 'nord' }
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
   Plug 'ryanoasis/vim-devicons'
@@ -19,8 +19,7 @@ call plug#end()
 " Vanilla config "
 set cmdheight=1
 syntax on
-packadd! dracula_pro
-colorscheme dracula_pro_van_helsing
+colorscheme nord
 set nu!
 set rnu!
 set wrap
@@ -49,7 +48,7 @@ endif
 " Plugin Config Section "
 
 " AirLine "
-let g:airline_theme = 'dracula_pro'
+let g:airline_theme = 'nord'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
 let g:airline#extensions#tabline#enabled = 1
